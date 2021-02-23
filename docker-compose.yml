@@ -30,7 +30,7 @@ services:
       - db_data:/var/lib/mysql
 
   workspace:
-    image: laradock/workspace:2.5-7.2
+    image: laradock/workspace:2.5-7.3
     volumes:
       - ../regretslist:/var/www/html
     working_dir: /var/www/html
